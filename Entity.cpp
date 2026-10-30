@@ -4,6 +4,19 @@ void Entity::movement()
 {
 }
 
-void Entity::health()
+int Entity::health()
 {
+}
+
+void Entity::attack()
+{
+}
+void Entity::collision() 
+{
+
+}
+
+void Entity::affichage()
+{
+
 }

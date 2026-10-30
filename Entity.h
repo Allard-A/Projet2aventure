@@ -2,10 +2,15 @@
 class Entity
 {
 
-	void movement();
-	void health();
+	virtual void movement();
+	
+	virtual int health();
+   
+	virtual void attack();
 
+	virtual void collision();
 
+	virtual void affichage();
 
 };
 
