@@ -3,5 +3,6 @@
 class HeadlessZombie :
     public Enemy
 {
+    void randommovement();
 };
 

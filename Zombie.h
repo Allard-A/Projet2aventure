@@ -3,6 +3,6 @@
 #include "Entity.h"
 class Zombie : public Enemy
 {
-
+	void Zmovement();
 };
 
