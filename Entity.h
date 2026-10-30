@@ -1,6 +1,7 @@
 #pragma once
 class Entity
 {
+	
 
 	virtual void movement();
 	
@@ -10,7 +11,9 @@ class Entity
 
 	virtual void collision();
 
-	virtual void affichage();
+	virtual void display();
+
+	virtual void alive();
 
 };
 

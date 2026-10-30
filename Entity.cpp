@@ -16,7 +16,10 @@ void Entity::collision()
 
 }
 
-void Entity::affichage()
+void Entity::display()
 {
+
+}
+void Entity::alive() {
 
 }
